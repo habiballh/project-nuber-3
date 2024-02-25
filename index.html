@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <title>Wildlife</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: relative">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="margin-left: 30px" href="#"><img src="imgs/images.jfif" width="80px" height="60px"
+          alt="the-logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item the-logo">
+            <a class="nav-link active text-success fw-bold" aria-current="page" href="#" >Wildlife</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success fs-5" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success fs-5" href="#">link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-success fs-5 border border-success rounded-4" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Parks
+            </a>
+            <ul class="dropdown-menu fs-5 border border-success rounded-4">
+              <li>
+                <a class="dropdown-item text-success" href="#">
+                  Elephant Nature Park</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">
+                  Sloth Sanctuary of Costa Rica</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">_____________________________________________</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">Tiritiri Matangi Open Sanctuary</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">
+                  Wechiau Community Hippo Sanctuary</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">
+                  The David Sheldrick Wildlife Trust</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">
+                  Black Jaguar White Tiger Foundation</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider text-success" />
+              </li>
+              <li>
+                <a class="dropdown-item text-success" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success fs-5" href="#">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-5 fs-5 border border-success rounded-4" type="search" placeholder="Search"
+            aria-label="Search" />
+          <button class="btn btn-outline-success me-2 fs-5" type="submit">
+            Search
+          </button>
+          <button class="btn btn-outline-success fs-5" type="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Login
+          </button>
+
+          <!-- modle -->
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-success">
+                  <h1 class="modal-title fs-5 text-light" id="exampleModalLabel ">
+                    Login
+                  </h1>
+                  <button type="button" class="btn-close border border-light rounded-4 text-Danger"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <label for="exampleFormControlInput1" class="form-label text-success fs-4">Email</label>
+                  <input type="email" class="form-control border border-success rounded-4"
+                    id="exampleFormControlInput1" />
+                  <p>We'll never shar your emall with anyone</p>
+                  <label for="exampleFormControlInput1" class="form-label text-success fs-4">password</label>
+                  <input type="password" class="form-control border border-success rounded-4"
+                    id="exampleFormControlInput1" />
+                  <label for="exampleFormControlInput1" class="form-label text-success fs-4">remaber me
+                  </label>
+                  <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" style="margin-right: 330px" data-bs-dismiss="modal">
+                    login
+                  </button>
+                  <button type="button" class="btn btn-success" style="margin-left: 0px">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modle -->
+          <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" style="height: 85vh">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="height: 650px">
+      <div class="carousel-item active">
+        <img src="imgs/the-therdonee.jpeg" class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block" style="
+              height: 450px;
+              margin-bottom: 100px;
+              background-color: rgb(163, 221, 163, 0.5);
+            ">
+          <h5>Tiritiri Matangi Open Sanctuary</h5>
+          <p>
+            then volunteers have planted tens of thousands of native trees to
+            restor
+          </p>
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+            Visit us
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/20210701113704-shutterstock-1078246298-1.webp" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block" style="
+              height: 450px;
+              margin-bottom: 100px;
+              background-color: rgb(163, 221, 163, 0.5);
+            ">
+          <h5>Wechiau Community Hippo Sanctuary</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+            Visit us
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/Wildlife-Sanctuaries.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block" style="
+              height: 300px;
+              margin-bottom: 100px;
+              background-color: rgb(163, 221, 163, 0.5);
+            ">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+            Visit us
+          </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="icons">
+    <ul>
+      <i class="fab fa-facebook-square"></i>
+    </ul>
+  </div>
+  <div class="" style="
+        height: 200px;
+        width: 100%px;
+        background-color: aquamarine;
+        margin-top: 50px;
+      ">
+    <h2 class="" style="margin-left: 20px">WELCOME</h2>
+    <p style="margin-left: 20px">
+      This websit for the maost imprtant parks in the world if you looking for
+      spasfing praks pleat let us now also if you want to join usThis websit
+      for the maost imprtant parks in the world if you looking for spasfing
+      praks pleat let us now also if you want to join us This websit for the
+      maost imprtant parks in the world if you looking for spasfing praks
+      pleat let us now also if you want to join usThis websit for the maost
+      imprtant parks in the world if you looking for spasfing praks pleat let
+      us now also if you want to join us
+    </p>
+    <button type="button" class="btn btn-success" style="margin-left: 20px" data-bs-dismiss="modal">
+      Read more
+    </button>
+  </div>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="btn fs-3" data-bs-toggle="collapse" href="#collapseOne">
+          <h2>Wechiau Community Hippo Sanctuary</h2>
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          Wechiau Community Hippo Sanctuary is a community-led tourism
+          attraction project located at Wechiau in the Upper West Region of
+          Ghana. The Black Volta River, along which the Sanctuary is situated,
+          contains one of only two remaining hippopotamus populations left in
+          Ghana
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn fs-3" data-bs-toggle="collapse" href="#collapseTwo">
+          <h2>Tiritiri Matangi Open Sanctuary</h2>
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lying just an hour from Aotearoa's largest city, this island
+          sanctuary is home to an unrivalled range of wildlife living their
+          best lives. Take a guided walk to learn about the island's wildlife
+          and original spade brigade, or explore it at your own pace. Support
+          our conservation and education programmes, or get involved as a
+          volunteer.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn fs-2" data-bs-toggle="collapse" href="#collapseThree">
+          <h2>CBlack Jaguar White Tiger Foundation</h2>
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          We are a global non-profit changing the world through education, law
+          reform and the rehabilitation of Animals. At our Foundation, we hope
+          to inspire more people to learn, get involved, and to take action
+          for the conservation of Big Felines and other Animals at large. As
+          living beings we all share this Planet, and in order to create a
+          better world for all, we must work together. Working together
+          towards a future that uses the power of Love, kindness and the
+          knowledge that all living things should be treated with respect.
+          Help us change the world today.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contaner">
+    <div style="
+          width: 100%;
+          height: 50px;
+          background-color: rgb(105, 170, 149);
+          border-radius: 10px;
+          margin-top: 25px;
+        ">
+      <h3 style="color: aliceblue; margin-left: 500px">
+        Translat Frome English to Arabic
+      </h3>
+    </div>
+    <div class="copy" style="
+          width: 100%;
+          height: 250px;
+          background-color: rgb(142, 216, 191);
+          margin: auto;
+        ">
+      <span style="font-size: 30px; margin-left: 20px">writ and translat </span><span
+        style="font-size: 30px; color: blueviolet">press Here</span>
+      <button type="button" class="btn btn-light" data-bs-dismiss="modal" style="display: block; margin-left: 20px; background-color: aliceblue;">
+        copy
+      </button>
+      <div class="translat" style="
+            width: 80%;
+            height: 150px;
+            background-color: aliceblue;
+            margin: auto;
+          ">
+        translat:
+      </div>
+    </div>
+  </div>
+  <div class="contaner">
+    <div style="
+          width: 100%;
+          height: 50px;
+          background-color: rgb(114, 172, 153);
+          border-radius: 10px;
+          margin-top: 25px;
+        ">
+      <h3 style="color: aliceblue; margin-left: 500px">
+        Translat Frome English to Arabic
+      </h3>
+    </div>
+    <div class="copy" style="
+          width: 100%;
+          height: 250px;
+          background-color: rgb(142, 216, 191);
+          margin: auto;
+        ">
+      <span style="font-size: 30px; margin-left: 20px">writ and translat </span><span
+        style="font-size: 30px; color: blueviolet">press Here</span>
+      <button type="button" class="btn btn-light" data-bs-dismiss="modal" style="display: block; margin-left: 20px">
+        copy
+      </button>
+      <div class="translat" style="
+            width: 80%;
+            height: 150px;
+            background-color: aliceblue;
+            margin: auto;
+          ">
+        translat:
+      </div>
+    </div>
+  </div>
+  <div class="contaner">
+    <div style="
+          width: 100%;
+          height: 50px;
+          background-color: rgb(85, 172, 144);
+          border-radius: 10px;
+          margin-top: 25px;
+        ">
+      <h3 style="color: aliceblue; margin-left: 500px">
+        Translat Frome English to Arabic
+      </h3>
+    </div>
+    <div class="copy" style="
+          width: 100%;
+          height: 250px;
+          background-color: rgb(142, 216, 191);
+          margin: auto;
+        ">
+      <span style="font-size: 30px; margin-left: 20px">writ and translat </span><span
+        style="font-size: 30px; color: blueviolet">press Here</span>
+      <button type="button" class="btn btn-light" data-bs-dismiss="modal" style="display: block; margin-left: 20px">
+        copy
+      </button>
+      <div class="translat" style="
+            width: 80%;
+            height: 150px;
+            background-color: aliceblue;
+            margin: auto;
+          ">
+        translat:
+      </div>
+    </div>
+  </div>
+  <div class="backg" style="
+        height: 500px;
+        width: 100%;
+        background-image: url(./imgs/backg.jpg);
+        background-attachment: fixed;
+      "></div>
+  <div style="
+        width: 100%;
+        height: 65px;
+        background-color: rgb(105, 170, 149);
+        border-radius: 10px;
+        margin-top: 25px;
+      ">
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <h3 style="color: aliceblue; margin-left: 500px;">
+      POPULAR PARKS IN THE WORLD
+    </h3>
+  </div>
+  <div class="contan row">
+    <div class="container mx-auto mt-4 " style="background-color: rgb(213, 215, 218);">
+      <div class="row " style="margin-left: 130px;">
+        
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem; position: relative;">
+            <div class="hover">
+              <img src="imgs/images (1).jfif111.jfif"  height="300px" class=" card-img-top" alt="...">
+              <div class=" fat card-body" style="height: 100px;">
+                <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                  type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                  Know More
+                </button>
+  
+                <p class="card-text"> We are a global non-profit changing the world through .</p>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif222.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif333.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif444.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif555.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif666.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif777.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imgs/images (1).jfif888.jfif"  height="300px" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title" style="display: inline;"> Tigers </h5> <button
+                type="button" class="btn btn-success" data-bs-dismiss="modal" style="margin-left: 80px;">
+                Know More
+              </button>
+
+              <p class="card-text"> We are a global non-profit changing the world through .</p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+  <div class="backg" style="
+  height: 400px;
+  width: 100%;
+  background-image: url(./imgs//85220_africa-21787_1920.rev.1600192341.jpg22.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+"></div>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div style="
+width: 100%;
+height: 65px;
+background-color: rgb(105, 170, 149);
+border-radius: 10px;
+margin-top: 25px;
+">
+<h3 style="color: aliceblue; margin-left: 700px;">
+THANKS FOR
+</h3>
+</div>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section class="light">
+	<div class="container py-2">
+		<div class="h1 text-center text-dark" id="pageHeaderTitle">PARKS NEWS </div>
+
+		<article class="postcard light blue">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="imgs/images (1).jfif111.jfif" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play blue">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light red">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="imgs/images (1).jfif666.jfif" alt="Image Title" />	
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play red">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light green">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="imgs/images (1).jfif888.jfif" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play green">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light yellow">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="imgs/images (1).jfif333.jfif" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play yellow">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+</section>
+<!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+<!-- ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;' -->
+<div style="
+width: 100%;
+height: 65px;
+border-radius: 10px;
+margin-top: 25px;
+">
+<h3 style="color: rgb(3, 252, 36); margin-left: 700px;">
+Join Us
+</h3>
+</div>
+
+<div class="thelast" style="width: 100%;">
+  <div class="row w-80" style="width: 80% ; margin: auto;">    
+    <div class="col">
+      <div class="inner shadow-lg  rounded " style="height: 150px; width:150px;  border-radius: 3px; ">
+        <h5 style="margin-left: 5px ; color: rgb(69, 187, 147);">wach the video</h5>
+        <i class="fa-brands fa-square-twitter" style="font-size: 50px; margin: 20px 45px; "></i>
+        <h5 style="margin-left: 25px;color: rgb(53, 180, 138);">Go to link</h5>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="inner shadow-lg  rounded " style="height: 150px; width:150px;  border-radius: 3px; ">
+        <h5 style="margin-left: 5px ; color: rgb(69, 187, 147);">wach the video</h5>
+        <i class="fa-brands fa-square-whatsapp" style="font-size: 50px; margin: 20px 45px; "></i>
+        <h5 style="margin-left: 25px;color: rgb(53, 180, 138);">Go to link</h5>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="inner shadow-lg  rounded " style="height: 150px; width:150px;  border-radius: 3px; ">
+        <h5 style="margin-left: 5px ; color: rgb(69, 187, 147);">wach the video</h5>
+        <i class="fa-brands fa-linkedin" style="font-size: 50px; margin: 20px 45px; "></i>
+        <h5 style="margin-left: 25px;color: rgb(53, 180, 138);">Go to link</h5>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="inner shadow-lg  rounded " style="height: 150px; width:150px;  border-radius: 3px; ">
+        <h5 style="margin-left: 5px ; color: rgb(69, 187, 147);">wach the video</h5>
+        <i class="fa-brands fa-square-instagram"style="font-size: 50px; margin: 20px 45px; "></i>
+        <h5 style="margin-left: 25px;color: rgb(53, 180, 138);">Go to link</h5>
+
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+<div class="last bg-success" style="margin-top: 30px;">
+  <div class="row">
+    <div class="col" style="margin-left: 150px;">
+      <p>__________________________________________________________</p><a class="navbar-brand" style="border-radius:10px" href="#"><img src="imgs/images.jfif" width="80px" height="60px"
+      alt="the-logo" /></a>
+      <span style="font-size: 20px;">Good Company</span>
+      <p>__________________________________________________________</p>
+      <ul style="list-style: none;">
+        <li><a href=""style="text-decoration: none; color: #000;">Tel : 000-00-000</a></li>
+        <li><a href=""style="text-decoration: none;color: #000;">address: usa</a></li>
+        <li> <a href=""style="text-decoration: none;color: #000;">fax: 000--000--9</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <p>___________________________________________________________</p><a class="navbar-brand" style="border-radius:10px" href="#"><img src="imgs/images.jfif" width="80px" height="60px"
+      alt="the-logo" /></a>
+      <span style="font-size: 20px;">Good Company</span>
+      <p>___________________________________________________________</p>
+      <ul style="list-style: none;">
+        <li><a href=""style="text-decoration: none; color: #000;">Tel : 000-00-000</a></li>
+        <li><a href=""style="text-decoration: none;color: #000;">address: usa</a></li>
+        <li> <a href=""style="text-decoration: none;color: #000;">fax: 000--000--9</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <p>___________________________________________________________</p><a class="navbar-brand" style="border-radius:10px" href="#"><img src="imgs/images.jfif" width="80px" height="60px"
+      alt="the-logo" /></a>
+      <span style="font-size: 20px;">Good Company</span>
+      <p>___________________________________________________________</p>
+      <ul style="list-style: none;">
+        <li><a href=""style="text-decoration: none; color: #000;">Tel : 000-00-000</a></li>
+        <li><a href=""style="text-decoration: none;color: #000;">address: usa</a></li>
+        <li> <a href=""style="text-decoration: none;color: #000;">fax: 000--000--9</a></li>
+      </ul>
+    </div>
+    <p>______________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+    <p style="margin-left: 400px;font-size: 30px;">COPYRIGHT &COPY;2020 WILDLIFE GOOD COMPANY</p>
+    <p>______________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+    </div>
+    </div>
+
+    <DIV class="fixed-top position-fixed" style="margin-left: 1400px;margin-top: 100px; font-size: 60px;">
+      <ul class="ttt"><a href=""><i class="fa-brands fa-square-facebook"></i></a></ul>
+      <ul class="ttt"><a href=""><i class="fa-brands fa-square-whatsapp"></i></a></ul>
+      <ul class="ttt"><a href=""><i class="fa-brands fa-square-twitter"></i></a></ul>
+      <ul class="ttt"><a href=""><i class="fa-brands fa-square-instagram"></i></a></ul>
+    </DIV>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
